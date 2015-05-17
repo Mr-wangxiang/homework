@@ -71,17 +71,17 @@ for(var i=0; i< collection.length ; i++){
 
 //var collection_c ={};
 
-return (console.log(
- '{key: "a",' +'count:' +num_a+'},\n'
- +'{key: "e",' +'count:' +num_e+'},\n'
- +'{key: "h",' +'count:' +num_h+'},\n'
- +'{key: "t",' +'count:' +num_t+'},\n'
- +'{key: "f",' +'count:' +num_f+'},\n'
- +'{key: "c",' +'count:' +num_c+'},\n'
- +'{key: "g",' +'count:' +num_g+'},\n'
- +'{key: "b",' +'count:' +num_b+'},\n'
- +'{key: "d",' +'count:' +num_d+'},'
-
+return (console.log('['+'\n'+
+ '{key:"a",' +'count:' +num_a+'},\n'
+ +'{key:"e",' +'count:' +num_e+'},\n'
+ +'{key:"h",' +'count:' +num_h+'},\n'
+ +'{key:"t",' +'count:' +num_t+'},\n'
+ +'{key:"f",' +'count:' +num_f+'},\n'
+ +'{key:"c",' +'count:' +num_c+'},\n'
+ +'{key:"g",' +'count:' +num_g+'},\n'
+ +'{key:"b",' +'count:' +num_b+'},\n'
+ +'{key:"d",' +'count:' +num_d+'},'+'\n'+
+']'
 
 
 ))
