@@ -109,7 +109,7 @@ for(var i=0 ; i<collection_c.length; i++){
 	}
 }
 
-return collection_a  
+return collection_c
 
 }
 
