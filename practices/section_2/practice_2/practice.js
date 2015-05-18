@@ -1,6 +1,20 @@
 function count_same_elements(collection) {
   //在这里写入代码
-  var sum_list=[];
+  vvar collection = [
+    "a", "a", "a",
+    "e", "e", "e", "e", "e", "e", "e",
+    "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h",
+    "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t", "t",
+    "f", "f", "f", "f", "f", "f", "f", "f", "f",
+    "c", "c", "c", "c", "c", "c", "c", "c",
+    "g", "g", "g", "g", "g", "g", "g",
+    "b", "b", "b", "b", "b", "b",
+    "d-5"
+  ];
+
+
+
+var sum_list=[];
   for(var i=0;i<collection.length;i++) {
           var summary=1;
           var name=collection[i].substring(0,1);
