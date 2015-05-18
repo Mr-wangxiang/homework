@@ -1,6 +1,5 @@
 function count_same_elements(collection) {
   //在这里写入代码
-  v
   var sum_list=[];
   for(var i=0;i<collection.length;i++) {
           var summary=1;
